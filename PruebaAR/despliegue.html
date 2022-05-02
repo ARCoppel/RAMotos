@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <title>AR Coppel: Motos </title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <style>
+      .box {display: flex;}
+      model-viewer {width: 800px; height:600px; margin:0, auto;}
+    </style>
+
+    <!--link rel="stylesheet" href="./styles.css"-->
+
+     
+    <!--script src="https://unpkg.com/focus-visible@5.0.2/dist/focus-visible.js" defer></script-->
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    
+  </head>
+  
+  <body>
+    <div class="box">
+      <model-viewer src="Screamer.glb" ar ar-scale="fixed" camera-controls alt="Moto Screamer" ios-src="Screamer.usdz" xr-environment>
+      </model-viewer>
+    </div>
+  </body>
+</html>
