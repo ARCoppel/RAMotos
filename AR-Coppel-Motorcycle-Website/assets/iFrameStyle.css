@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "Circular std";
+    src: url('/Resources/Fonts/circular-std-medium-500\(1\).ttf') format('truetype');
+    
+  }
+
+body{
+    font-family: "Circular std";   
+    }
+.resp-iframe {
+    position: relative;
+    overflow: hidden;
+    padding-top: 57%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 19px;
+  }
+h3 {
+    font-size: 8px;
+    text-align: center;
+  }
+
+h4 {
+    text-align: center;
+    font-size: 10px;
+}
+
+  .top-buffer {
+    margin-top: 15px;
+  }
+.Myheader {
+    padding: 10px;
+    /* background: #EFC100;
+    background: -webkit-radial-gradient(top left, #EFC100, #5AABFA);
+    background: -moz-radial-gradient(top left, #EFC100, #5AABFA);
+    background: radial-gradient(to bottom right, #EFC100, #5AABFA); */
+}
+
+.MyFooter {
+    padding: 55px;
+  }
