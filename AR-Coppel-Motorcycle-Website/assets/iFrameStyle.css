@@ -36,11 +36,6 @@ body{
   font-size: 10px;
 }
 
-.button1:hover {
-  background-color: #f3bf30;
-  color: white;
-}
-
 .button2 {
   background-color: #1e1e1e;
   color:rgb(255, 255, 255);
@@ -49,11 +44,6 @@ body{
   margin-left: 10%;
   margin-top: 4.5%;
   font-size:12px;
-}
-
-.button2:hover {
-  background-color: #1e1e1e;
-  color: rgb(167, 167, 167);
 }
 
 .button3 {
@@ -66,11 +56,6 @@ body{
   font-size:12px;
 }
 
-.button3:hover {
-  background-color: #770409;
-  color: white;
-}
-
 .button4 {
   background-color: #6fa065;
   color:rgb(0, 0, 0);
@@ -81,10 +66,6 @@ body{
   font-size:12px;
 }
 
-.button4:hover {
-  background-color: #6fa065;
-  color: white;
-}
 
 .button5 {
   background-color: #c8cbcb;
@@ -94,11 +75,6 @@ body{
   margin-left: 10%;
   margin-top: 4.5%;
   font-size:12px;
-}
-
-.button5:hover {
-  background-color: #c8cbcb;
-  color: white;
 }
    
  #ar-button {
@@ -119,7 +95,7 @@ body{
     line-height: 36px;
     height: 38px;
     border-radius: 80px;
-    border: 1px solid #DADCE0;
+    border: 1px solid #016EB9;
   }
    
   #ar-button:active {
@@ -218,7 +194,7 @@ body{
     font-size:14px;
     text-align:left;
     padding:33px;
-    height: 80%;
+    height: 70%;
     border-radius:22px;
     position:absolute;
     left:60%;
@@ -233,7 +209,7 @@ body{
     font-size:14px;
     text-align:left;
     padding:33px;
-    height: 80%;
+    height: 70%;
     border-radius:22px;
     position:absolute;
     left:60%;
@@ -248,7 +224,7 @@ body{
     font-size:14px;
     text-align:left;
     padding:33px;
-    height: 80%;
+    height: 70%;
     border-radius:22px;
     position:absolute;
     left:60%;
@@ -263,7 +239,7 @@ body{
     font-size:14px;
     text-align:left;
     padding:33px;
-    height: 80%;
+    height: 70%;
     border-radius:22px;
     position:absolute;
     left:60%;
