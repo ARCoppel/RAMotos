@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js" integrity="sha256-+8RZJua0aEWg+QVVKg4LEzEEm/8RFez5Tb4JBNiV5xA=" crossorigin="anonymous"></script>
+        
+        <meta charset="UFT-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--Style-->
+        <link rel="stylesheet" href="./assets/styles/dashboardstyle.css">
+        <title class="MainTitle">Realidad Aumentada Coppel</title>
+    </head>
+
+    
+    <body>
+        <header class="p-4">
+            <h1>Motocicletas Realidad Aumentada - Dashboard</h1>
+            <h4 id="MyDate"></h4>
+        </header>
+        <div class="container border border-dark">
+            <div class="row row-cols-2 border border-dark">
+                <div class="col border border-dark">
+                    <h2 class="p-3">Tiempo Total Visualizado</h2>
+                    <h3 id="TotalTimeView"></h3>
+                </div>
+                <div class="col border border-dark">
+                    <h2 class="p-3">Clicks total</h2>
+                    <h3 id="TotalClicks"></h3>
+                </div>
+                <div class="col border border-dark">
+                    <h2 class="p-3">Tiempo de visualizacion por articulo</h2>
+                    <canvas class="p-2" id="timePieChart" width="500" height="500"></canvas>
+                </div>
+                <div class="col border border-dark">
+                    <h2 class="p-3">Clicks por articulo</h2>
+                    <canvas class="p-2" id="ClicksPieChart" width="500" height="500"></canvas>
+                </div>
+            </div>
+        </div>
+        <div>
+            <footer class=" text-center MyFooter">
+              <!-- Copyright -->
+              <h4 class="text-center p-3">
+                Motocicletas Realidad Aumentada © 2022 Copyright Grupo Coppel:
+                <a class="text-dark" href="https://www.coppel.com/aviso-de-privacidad">Todos los derechos reservados</a>
+                <p>Link a: <a class="text-dark" href="./index.html">Motocicletas Realidad Aumentada</a></p>
+              </h4>
+              <!-- Copyright -->
+            </footer>
+            </div>
+    </body>
+
+    <script src="./assets/scripts/DashboardGraphs.js"></script>
+</html> 

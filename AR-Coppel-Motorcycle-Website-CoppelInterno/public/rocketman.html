@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+  <title>AR Coppel: Motos </title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="./assets/iFrameStyle.css">
+
+     
+    <script src="https://unpkg.com/focus-visible@5.0.2/dist/focus-visible.js" defer></script>
+  </head>
+<body>
+
+    <div class="container1">
+      <model-viewer ar ar-modes="webxr scene-viewer quick-look" 
+                    
+                  src="./Resources/Motorcycles/rocketman.glb"
+                  ios-src="./Resources/Motorcycles/rocketman.usdz"
+                  xr-environment
+                  shadow-intensity="1"
+                  id="transform"
+                  ar ar-scale="fixed"
+                  camera-controls disable-zoom
+                  ar ar-placement="floor" 
+                  auto-rotate ar>
+
+       <button slot="ar-button" id="ar-button">
+          Presiona para ver la realidad aumentada
+        </button>
+
+        <!--button class="button button1" onClick="window.location.href = 'https://www.coppel.com/motocicleta-vento-rocketman-sport-250-cc-2022-pm-5124883';">
+          Ir a producto
+        </button-->
+        
+        <!--div id="ar-prompt">
+          <img src="hand.png" height ="90" width="70">
+        </div-->
+        
+        <!--button id="ar-failure">
+          No se está detectando la superficie.
+        </button-->
+  
+  
+        </model-viewer>
+      </div>
+  </div>
+
+  <script>
+    function abrir(){
+      document.getElementById("vent").style.display="block";
+    }
+    function cerrar(){
+      document.getElementById("vent").style.display="none";
+    }
+    
+  </script>
+    
+    <script type="module"
+        src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js">
+    </script>
+  
+  
+    <script nomodule
+        src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js">
+    </script>
+  <script LANGUAGE="JavaScript">
+      function GetCookie (name) {
+      var arg = name + "=";
+      var alen = arg.length;
+      var clen = document.cookie.length;
+      var i = 0;
+      while (i < clen) {
+        var j = i + alen;
+        if (document.cookie.substring(i, j) == arg)
+        return getCookieVal (j);
+        i = document.cookie.indexOf(" ", i) + 1;
+        if (i == 0) break;
+      }
+      return null;
+    }
+    
+  </script>
+
+</html>
