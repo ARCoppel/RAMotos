@@ -1,11 +1,11 @@
 @font-face {
     font-family: "Circular std";
-    src: url('/AR-Coppel-Motorcycle-Website-CoppelInterno/Resources/Fonts/circular-std-medium-500.ttf') format('truetype');
-    
+    src: url('/Resources/Fonts/Circular\ Std\ Medium.woff') format('truetype');
+    /*Font made from "http://www.onlinewebfonts.com" oNline Web Fonts is licensed by CC BY 3.0*/
   }
 
 body{
-    font-family: Circular std;   
+    font-family: "Circular std";   
     }
 .resp-iframe {
     position: relative;
